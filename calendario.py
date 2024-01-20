@@ -28,7 +28,7 @@ def createCronogram(year: int,names: list, suc_names: list):
     rotations = [
         ['N', 'N', 'N', 'N', 'N', 'TC', 'TC'],  # Turn week
         ['D', 'D', 'D', 'D', 'D', 'L', 'L'],  # Not turn week
-        ['D', 'D', 'D', 'D', 'D', 'TC', 'TC'],  # Turn week
+        ['A', 'A', 'A', 'A', 'A', 'TC', 'TC'],  # Turn week
         ['D', 'D', 'D', 'D', 'D', 'L', 'L'],  # Not turn week
         ['D', 'D', 'D', 'D', 'D', 'L', 'L']   # Not turn week
     ]
